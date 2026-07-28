@@ -79,6 +79,22 @@ erDiagram
 - Visual Studio Code
 - SQLTools
 
+## Project evidence
+
+### Database tables and event results
+
+The VS Code database explorer shows the four TicketFlowDB tables, alongside
+event records returned from SQL Server.
+
+![TicketFlowDB tables and event results](screenshots/01-database-events-results.png)
+
+### Booking records and cancellation status
+
+The booking results demonstrate stored dates, ticket quantities, total prices,
+and confirmed or cancelled booking statuses.
+
+![TicketFlowDB booking results](screenshots/02-bookings-results.png)
+
 ## Repository structure
 
 | File | Purpose |
@@ -90,6 +106,7 @@ erDiagram
 | `06_delete_queries.sql` | Demonstrates a safe test-record deletion and foreign-key protection |
 | `07_business_questions.sql` | Answers all eight final business questions |
 | `TicketFlowDB_ER_Diagram.png` | Visual ER diagram of the four related tables |
+| `screenshots/` | Contains SQL Server and VS Code result evidence |
 | `Portfolio-Guide.pdf` | Original guided project brief |
 
 ## How to run
@@ -150,5 +167,4 @@ after it runs.
 ## Next steps
 
 - Add integrity-check queries
-- Capture result screenshots
 - Extend the project with transactions and ACID compliance in Module 2
